@@ -1,5 +1,5 @@
 import Data from "../components/Data"
-import ListCustomer from "../components/ListCustomer"
+import ListCustomer from "../components/Listing"
 import Navbar from "../layout/Navbar"
 
 const Home = () => {

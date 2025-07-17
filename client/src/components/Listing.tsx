@@ -1,5 +1,5 @@
 
-const ListCustomer = () => {
+const Listing = () => {
     let img = "https://www.svgrepo.com/show/271333/man-hair-head.svg"
     const customers = [
         { img: img, name: "Babu", phone: "8848692600", paid: 3000, pending: 2000 },
@@ -47,4 +47,4 @@ const ListCustomer = () => {
     )
 }
 
-export default ListCustomer
+export default Listing
