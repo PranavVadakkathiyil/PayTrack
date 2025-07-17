@@ -6,10 +6,10 @@ const ListCustomer = () => {
     ]
     return (
         <div>
-            <div>
-                <div className="w-full overflow-x-auto p-3">
+            <div className="flex items-center justify-center ">
+                <div className=" overflow-x-auto p-3">
                     <table className="sm:min-w-[1200px] min-w-[600px] divide-y divide-gray-200 bg-white shadow-md rounded-sm">
-                        <thead className="bg-amber-200">
+                        <thead className="bg-gray-200">
                             <tr>
                                 <th className="px-6 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"></th>
                                 <th className="px-6 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Name</th>
@@ -21,7 +21,7 @@ const ListCustomer = () => {
                         </thead>
                         <tbody className="divide-y divide-gray-100">
                             {customers.map((data, i) => (
-                                <tr key={i} className="hover:bg-amber-50 transition">
+                                <tr key={i} className="hover:bg-gray-50 transition">
                                     <td className="px-6 py-4 whitespace-nowrap">
                                         <img src={data.img} alt="img" className="w-10 h-10 rounded-full border" />
                                     </td>
