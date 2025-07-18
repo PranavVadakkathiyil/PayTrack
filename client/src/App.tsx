@@ -10,12 +10,12 @@ const App = () => {
   return ( 
     <div>
       <Navbar/>
-      {/* <Auth/> */}
-      {/* <Home/> */}
-      {/* <History/> */}
-      {/* <Addbill/> */}
+      <Auth/>
+      <Home/>
+      <History/>
+      <Addbill/>
       <UserHome/>
-      {/* <ViewBills/> */}
+      <ViewBills/>
     </div>
   )
 }

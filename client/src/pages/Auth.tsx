@@ -29,6 +29,17 @@ const Auth = () => {
               className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Phone</label>
+            <input
+              type="tel"
+              name="phone"
+            //   value={formData.email}
+            //   onChange={handleChange}
+              placeholder="+91 9898656532"
+              className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700">Password</label>
